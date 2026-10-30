@@ -8,9 +8,20 @@ In this assignment, you will create a To-Do List web application using React. Th
 
 ### Task 1: Setup Your React Environment (5 points)
 
-1. Set up your development environment for React. You can use Create React App, which simplifies the setup process, or choose your own preferred method.
+1. Set up your development environment for React with Vite, the same way we did in class (Create React App is deprecated and no longer recommended by the React team). Vite needs Node 20.19+ or 22.12+; the devcontainer uses Node 24.
 
-2. Create a new React project for the To-Do List app following the provided setup guide or tutorial.
+2. Create a new React project for the To-Do List app and start the dev server:
+
+   ```bash
+   npm create vite@latest to-do-react-app -- --template react
+   cd to-do-react-app
+   npm install
+   npm run dev
+   ```
+
+   When `npm create vite` asks *Install with npm and start now?*, choose **No** (use the arrow keys); the next commands do that for you.
+
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### Task 2: Create the User Interface (10 points)
 
